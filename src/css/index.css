@@ -1,0 +1,49 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Times New Roman', Times, serif;
+}
+#mobile
+{
+    display: none;
+}
+.head
+{
+    display: flex;
+    background-color: black;
+    color: white;
+}
+.head .left
+{
+    width: 5%;
+    padding: 0.3%;
+}
+.head .left img
+{
+    width: 100%;
+}
+.head .middle
+{
+    font-size: 300%;
+    padding-top: 0.7%;
+    padding-left: 2%;
+}
+.head nav
+{
+    width: 64%;
+    display: flex;
+    justify-content: end;
+}
+.head nav a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 150%;
+    margin-right: 2%;
+    padding-top: 3%;
+}
+.head nav a:hover
+{
+    color: aqua;
+}
