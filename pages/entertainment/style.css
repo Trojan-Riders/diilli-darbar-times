@@ -80,3 +80,44 @@
     margin-top: 5.5%;
     width: 80%;
 }
+
+.home-container .center
+{
+    display: flex;
+}
+.home-container .center .left-center
+{
+    border-right: 0.5px solid black;
+    width: 30%;
+}
+.home-container .center .left-center .other_news
+{
+    background-color: black;
+    width: 80%;
+    margin-left: 5%;
+    color: white;
+    font-size: 150%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+    padding: 5%;
+}
+.home-container .center .right-center
+{
+    border-left: 0.5px solid black;
+    width: 70%;
+    padding: 5%;
+}
+.home-container .center .right-center .image
+{
+    width: 100%;
+}
+.home-container .center .right-center .image img
+{
+    width: 100%;
+    height: 100%;
+}
+.home-container .center .right-center .title
+{
+    font-size: 200%;
+}
