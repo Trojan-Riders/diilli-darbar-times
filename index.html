@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="./src/css/index.css">
     <title>Diilli Darbar Times</title>
 </head>
+
 <body>
     <div class="head">
         <div class="left">
@@ -36,9 +38,44 @@
                 About Us
             </a>
         </nav>
+        <button onclick="menu()" id="menu">
+            <img src="./src/img/menu.png" alt="">
+        </button>
+        <nav id="mobile">
+            <div class="button">
+                <a href="./index.html">
+                    Home
+                </a>
+            </div>
+            <div class="button">
+                <a href="./pages/sports/index.html">
+                    Sports
+                </a>
+            </div>
+            <div class="button">
+                <a href="./pages/entertainment/index.html">
+                    Entertainment
+                </a>
+            </div>
+            <div class="button">
+                <a href="./pages/financial/index.html">
+                    Financial
+                </a>
+            </div>
+            <div class="button">
+                <a href="./pages/international/index.html">
+                    International
+                </a>
+            </div>
+            <div class="button">
+                <a href="./pages/about_us/index.html">
+                    About Us
+                </a>
+            </div>
+        </nav>
     </div>
     <div class="home-container">
-        <div class="left">Advertisement</div>
+        <div class="left" id="adv">Advertisement</div>
         <div class="center">
             <div class="heading">
                 Cover Story
@@ -54,40 +91,41 @@
 
                     </div>
                     <div class="summary" id="zero_summary">
-    
+
                     </div>
                 </div>
             </div>
 
 
             <div class="other-news">
-                
+
                 <div class="card">
-                    
+
                     <div class="title" id="one_title">
-                        
+
                     </div>
                 </div>
 
                 <div class="card">
-                    
+
                     <div class="title" id="two_title">
-                        
+
                     </div>
                 </div>
 
                 <div class="card">
-                    
+
                     <div class="title" id="three_title">
-                        
+
                     </div>
                 </div>
 
             </div>
 
         </div>
-        <div class="right">Advertisement</div>
+        <div class="right" id="adv">Advertisement</div>
     </div>
     <script src="./src/js/index.js"></script>
 </body>
+
 </html>

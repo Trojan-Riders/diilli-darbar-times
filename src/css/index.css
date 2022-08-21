@@ -7,7 +7,10 @@
 #mobile {
     display: none;
 }
-
+#menu
+{
+    display: none;
+}
 .head {
     display: flex;
     background-color: black;
@@ -128,4 +131,77 @@
     padding: 1%;
     color: white;
     font-size: 200%;
+}
+@media(max-width:320px)
+{
+    #adv
+    {
+        display: none;
+    }
+    .home-container .center
+    {
+        margin-top: 20%;
+    }
+    .other-news
+    {
+        display: block;
+    }
+    .other-news .card
+    {
+        margin-top: 1%;
+    }
+    .other-news .card .title
+    {
+        font-size: 100%;
+    }
+    .home-container .center .heading
+    {
+        font-size: 200%;
+    }
+    .home-container .center .story .title
+    {
+        font-size: 150%;
+    }
+    .head .left
+    {
+        width: 15%;
+    }
+    .head .middle
+    {
+        font-size: 150%;
+        width: 70%;
+        text-align: left;
+        margin-right: 1%;
+        padding-top: 3%;
+    }
+    #desktop
+    {
+        display: none;
+    }
+    #mobile
+    {
+        position: absolute;
+        display: block;
+        background-color: rgba(0,0,0,0.8);
+        width: 100%;
+        margin-top: 15%;
+        padding-bottom: 2%;
+        display: none;
+    }
+    #menu
+    {
+        display: block;
+        background-color: black;
+        width: 15%;
+        border: none;
+    }
+    #menu img
+    {
+        width: 100%;
+    }
+    #mobile .button
+    {
+        margin-top: 3%;
+        padding-left: 5%;
+    }
 }
