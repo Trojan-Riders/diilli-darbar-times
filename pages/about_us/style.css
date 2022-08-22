@@ -7,7 +7,10 @@
 #mobile {
     display: none;
 }
-
+#menu
+{
+    display: none;
+}
 .head {
     display: flex;
     background-color: black;
