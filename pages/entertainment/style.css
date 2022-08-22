@@ -196,4 +196,31 @@
         margin-top: 3%;
         padding-left: 5%;
     }
+
+    .home-container .center
+    {
+        flex-wrap: wrap-reverse;
+    }
+    .home-container .center .left-center
+    {
+        width: 100%;
+        border: none;
+    }
+    .home-container .center .left-center .other_news
+    {
+        font-size: 120%;
+    }
+    .home-container .center .right-center
+    {
+        width: 100%;
+        border: none;
+    }
+    .home-container .center .right-center .title
+    {
+        font-size: 120%;
+    }
+    .home-container .center .right-center .summary
+    {
+        font-size: 80%;
+    }
 }
