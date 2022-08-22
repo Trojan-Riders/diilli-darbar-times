@@ -22,3 +22,14 @@ fetch('https://free-news.p.rapidapi.com/v1/search?q=International%20News&lang=en
         }
     )
 	.catch(err => console.error(err));
+	var x = 1;
+	function menu() {
+		if (x == 1) {
+			document.getElementById('mobile').style.display = 'block';
+			x = 0;
+		}
+		else {
+			document.getElementById('mobile').style.display = 'none';
+			x = 1;
+		}
+	}

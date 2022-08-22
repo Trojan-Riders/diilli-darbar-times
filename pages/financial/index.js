@@ -22,3 +22,14 @@ fetch('https://free-news.p.rapidapi.com/v1/search?q=Indian%20Finance&lang=en', o
         }
     )
 	.catch(err => console.error(err));
+	var x = 1;
+	function menu() {
+		if (x == 1) {
+			document.getElementById('mobile').style.display = 'block';
+			x = 0;
+		}
+		else {
+			document.getElementById('mobile').style.display = 'none';
+			x = 1;
+		}
+	}
